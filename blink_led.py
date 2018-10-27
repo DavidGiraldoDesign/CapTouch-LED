@@ -2,7 +2,7 @@ import RPi.GPIO as G
 import time
 
 LedPin = 4 #pin4 for the LED
-CapacitivePin = 5 #pin5 for he capacitive touch
+CapacitivePin = 18 #pin18 for he capacitive touch
 
 def setup():
     G.setmode(G.BCM)
